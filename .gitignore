@@ -1,0 +1,29 @@
+###Global
+*.log
+
+### Python template
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+.cache/
+
+build/
+/*.egg-info
+.idea
+.tmp
+*.csv
+
+/dist/
+local_settings.py
+!deploy/local_settings.py
+db.sqlite3
+
+### Virtual environment
+/venv/
+/.venv/
